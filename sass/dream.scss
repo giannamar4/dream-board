@@ -1,0 +1,32 @@
+$myblue: #87A8CB;
+$mygreen:#AFE4D2;
+$mypink: #FFBAD9;
+
+// nav bar section
+nav{
+  background-color: rgb(177, 204, 182) ;
+}
+
+#navie{
+  position:sticky;
+  top:0;
+  z-index:10;
+}
+
+.navbar{
+  background-color: #658cb8;
+  padding:0 !important;
+}
+// landing section
+#banner{
+  background-color: $myblue;
+  color:white;
+  padding-top:5%;
+}
+#preface{
+  font-size:2.5em;
+  font-weight: 600;
+  margin-top: 3.5em;
+}
+.bottom-img{
+  width: 100%;}
