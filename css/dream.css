@@ -1,10 +1,5 @@
-$myblue: #87a8cb;
-$mygreen: #afe4d2;
-$mypink: #ffbad9;
-
-// nav bar section
 nav {
-  background-color: rgb(177, 204, 182);
+  background-color: #b1ccb6;
 }
 
 #navie {
@@ -12,36 +7,40 @@ nav {
   top: 0;
   z-index: 100;
 }
+
 .nav-item {
   color: white !important;
 }
+
 .nav-link {
   color: white !important;
 }
+
 .navbar {
   background-color: #658cb8;
   padding: 0 !important;
   color: white !important;
 }
-// landing section
+
 #banner {
-  background-color: $myblue;
+  background-color: #87a8cb;
   color: white;
   padding-top: 5%;
 }
+
 #preface {
   font-size: 2.5em;
   font-weight: 600;
   margin-top: 3.5em;
-  &:hover {
-    color: $mypink;
-  }
 }
+#preface:hover {
+  color: #ffbad9;
+}
+
 .bottom-img {
   width: 100%;
 }
 
-// timeline
 body {
   background-color: #f7f7f7;
   margin-top: 20px;
@@ -234,83 +233,95 @@ body {
   .main-timeline .date-content {
     margin-top: 35px;
   }
+
   .main-timeline .date-content:before {
     width: 22.5%;
   }
+
   .main-timeline .timeline-content {
     padding: 10px 0 10px 30px;
   }
+
   .main-timeline .title {
     font-size: 17px;
   }
+
   .main-timeline .timeline:nth-child(2n) .timeline-content {
     padding: 10px 30px 10px 0;
   }
 }
-
 @media only screen and (max-width: 767px) {
   .main-timeline:before {
     margin: 0;
     left: 7px;
   }
+
   .main-timeline .timeline {
     margin-bottom: 20px;
   }
+
   .main-timeline .timeline:last-child {
     margin-bottom: 0;
   }
+
   .main-timeline .icon {
     margin: auto 0;
   }
+
   .main-timeline .date-content {
     width: 95%;
     float: right;
     margin-top: 0;
   }
+
   .main-timeline .date-content:before {
     display: none;
   }
+
   .main-timeline .date-outer {
     width: 110px;
     height: 110px;
   }
+
   .main-timeline .date-outer:before,
-  .main-timeline .date-outer:after {
+.main-timeline .date-outer:after {
     width: 110px;
     height: 110px;
   }
+
   .main-timeline .date {
     top: 30%;
   }
+
   .main-timeline .year {
     font-size: 24px;
   }
+
   .main-timeline .timeline-content,
-  .main-timeline .timeline:nth-child(2n) .timeline-content {
+.main-timeline .timeline:nth-child(2n) .timeline-content {
     width: 95%;
     text-align: center;
     padding: 10px 0;
   }
+
   .main-timeline .title {
     margin-bottom: 10px;
   }
 }
-
-// clothes gallery
-
 .zoom:hover {
   transform: scale(1.2);
   z-index: 999;
 }
+
 .gala {
-  background-color: $mypink;
+  background-color: #ffbad9;
 }
 
-// bucket list
 .listy {
-  background-color: $mygreen;
+  background-color: #afe4d2;
   box-sizing: border-box;
 }
+
 /* Remove margins and padding from the list */
 #myUL {
   padding: 0;
@@ -325,7 +336,6 @@ body {
   background: #eee;
   font-size: 18px;
   transition: 0.2s;
-
   /* make the list items unselectable */
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -345,7 +355,7 @@ body {
 
 /* When clicked on, add a background color and strike out text */
 #myUL li.checked {
-  background: $myblue;
+  background: #87a8cb;
   color: #fff;
   text-decoration: line-through;
 }
@@ -366,7 +376,7 @@ body {
 
 /* Style the header */
 .header2 {
-  background-color: $mygreen;
+  background-color: #afe4d2;
   padding: 30px 40px;
   color: white;
   text-align: center;
@@ -394,7 +404,7 @@ input {
 .addBtn {
   padding: 10px;
   width: 25%;
-  background: $mypink;
+  background: #ffbad9;
   color: #555;
   float: left;
   text-align: center;
@@ -405,7 +415,7 @@ input {
 }
 
 .addBtn:hover {
-  background-color: $myblue;
+  background-color: #87a8cb;
 }
 
 .fint {
@@ -413,9 +423,11 @@ input {
   width: 50%;
   border: 2px solid black;
 }
+
 #finny:hover {
-  color: $mypink;
+  color: #ffbad9;
 }
+
 h1:hover {
-  color: $mypink !important;
-}
+  color: #ffbad9 !important;
+}/*# sourceMappingURL=dream.css.map */
