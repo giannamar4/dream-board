@@ -15,36 +15,34 @@
 <body>
     <!-- nav bar -->
     <section id="navie">
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg ">
      
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Stats</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Goals</a>
-            </li>
+          <a class="navbar-nav ml-auto">
+            <a class="nav-item">
+              <a class="nav-link" href="#banner">Home</a>
+            </a>
+            
+            <a class="nav-item">
+              <a class="nav-link" href="#time">Goals</a>
+            </a>
          
-              <a class="nav-link" href="#">Bucket List</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link " href="#" >
+              <a class="nav-link" href="#bucket">Bucket List</a>
+          </a>
+            <a class="nav-item ">
+              <a class="nav-link " href="#style" >
                 Style
               </a>
             
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Fin</a>
-            </li>
+            </a>
+            <a class="nav-item">
+              <a class="nav-link" href="#finny">Fin</a>
+            </a>
             
-          </ul>
+          </a>
         </div>
       </nav>
     </section>
@@ -70,7 +68,7 @@
 <!-- timeline -->
 <div class="section_heading text-center">
 <br>
-  <h3>I will be...</h3>
+  <h3 id="time">I will be...</h3>
   <div class="line"></div>
 </div><br><br>
 <div class="container">
@@ -88,9 +86,9 @@
                                   </div>
                               </div>
                               <div class="timeline-content">
-                                  <h5 class="title">Heading</h5>
+                                  <h5 class="title">Freshman Year of College</h5>
                                   <p class="description">
-                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
+                                      Living in Tempe pursuing a degree in computer science at ASU. A member of the Dancing Devils Dance Team and AZNA dance club. Looking at different career paths to follow and keeping up with my dance and pom training. Making new friends and meeting new people. Also, recieving my yoga teacher certification.
                                   </p>
                               </div>
                           </div>
@@ -106,9 +104,9 @@
                                   </div>
                               </div>
                               <div class="timeline-content">
-                                  <h5 class="title">Heading</h5>
+                                  <h5 class="title">Sophmore Year of College</h5>
                                   <p class="description">
-                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
+                                    Same as above. Declaring a second major in dance and trying out for the spirit squad dance team. Balancing work dance and school. (Honestly haven't thought this far)
                                   </p>
                               </div>
                           </div>
@@ -124,9 +122,9 @@
                                   </div>
                               </div>
                               <div class="timeline-content">
-                                  <h5 class="title">Heading</h5>
+                                  <h5 class="title">Junior Year of College</h5>
                                   <p class="description">
-                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
+                                      Member of the spirit squad competition dance team. 
                                   </p>
                               </div>
                           </div>
@@ -142,9 +140,9 @@
                                   </div>
                               </div>
                               <div class="timeline-content">
-                                  <h5 class="title">Heading</h5>
+                                  <h5 class="title">Senior Year of College</h5>
                                   <p class="description">
-                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
+                                      Study abroad somewhere and be on track to graduate. 
                                   </p>
                               </div>
                           </div>
@@ -159,9 +157,9 @@
                                 </div>
                             </div>
                             <div class="timeline-content">
-                                <h5 class="title">Heading</h5>
+                                <h5 class="title">Post-Grad</h5>
                                 <p class="description">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
+                                   Use money saved up to move to California and pursue a masters degree. Also, get a job in tech and teach dance or something part time.
                                 </p>
                             </div>
                         </div>
@@ -169,13 +167,43 @@
                       </div>
   </div>
 
+<!-- bucket list -->
 
+<section class="listy">
+  <img src="images/wave2.png">
+  <br>
+<div id="myDIV" class="header2">
+  <h2 id="bucket" class="section_heading text-center" style="margin:5px">My Bucket List</h2>
+  <div class="text-center">
+  <input type="text" id="myInput" placeholder="Title...">
+  <span onclick="newElement()" class="addBtn">Add</span>
+</div></div>
+
+<ul id="myUL">
+  <li>Go to the Phillipines</li>
+  <li>Develop an indie game</li>
+  <li>be on a major competitive dance team</li>
+  <li>Get a Graduate degree</li>
+  <li>Be in a music video</li>
+  <li>Dance at Millenium Dance Studio</li>
+  <li>Dance at 1Million Dance Studio</li>
+  <li>Choreograph a kpop piece lol!</li>
+  <li>Learn Italian</li>
+  <li>Learn Tagalog</li>
+  <li>Bunjee Jump</li>
+  <li>Try gymnastics</li>
+  <li>Learn Aerial Silks</li>
+  <li>Play piano well</li>
+ 
+</ul>
+
+</section>
   <!-- clothes gallery 1 -->
   <section class="gala">
     <img src="images/wave2.png" class="bottom-img">
   <div class="section_heading text-center">
     <br>
-      <h3>My Dream Style Overview</h3>
+      <h3 id="stile">My Dream Style Overview</h3>
   </div>
       <p style="width:50%; text-align: center;margin-left: 25vw;">I love clothing with interesting patterns, textures and asymmetry. I adore crazy runway fashion and "camp" clothing(refer to met gala 2019). I love eclectic jewelry and earrings. i love statement pieces that are very attention-getting. Lastly, i love long hair with hair jewelery and unique hairstyles and colors. Also i love leg warmers lol</p>
       <div class="line"></div><br>
@@ -310,6 +338,24 @@
 
 <img src="images/wave1.png" class="bottom-img">
 </section>
+
+<!-- fin -->
+
+    <div class="container">
+      <div class="row">
+        
+<div class="col-md-6">
+  <h1 id="finny" style="margin-top:1em;">Final Word</h1>
+  <p style="width:80%;">Right now I am a month and a half away from graduating highschool. I love to scrapbook, hang out with friends and go to concerts(like a lot a lot). My best friends are timberlee, thao and jadyn. I am excited to graduate because at the moment i have senioritis very bad. I'm excited for the future and ready to achieve all my goals.</p>
+</div>
+  
+      <div class="col-md-6 text-center">
+          <img src="images/gianna.jpg" width="60%" class="img-fluid">
+      </div>
+     
+  </div>
+</div><br><br>
+<footer style="background-color: #87A8CB;padding:1em; text-align: center;font-size: large;"> March 2022</footer>
     <script src="js/script.js"></script>
 </body>
 </html>
